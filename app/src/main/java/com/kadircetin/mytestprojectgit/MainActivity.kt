@@ -21,6 +21,7 @@ class MainActivity : ComponentActivity() {
         for (num in myList){
             println(num)
         }
+        println("Test added")
         setContent {
             MyTestProjectGitTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
